@@ -1,7 +1,7 @@
 pipeline {
   agent any
   options {
-    overrideIndexTrigger(true)
+    overrideIndexTriggers(true)
   }
   stages {
     stage('Build') {
