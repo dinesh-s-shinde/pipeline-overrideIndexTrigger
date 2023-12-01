@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo "Hello world from Override Index Trigger"
+        echo "Hello World! 1"
       }
     }
   }
